@@ -1,3 +1,6 @@
+Hi, I'm Prathamesh Mahesh Bhangale, a final-year Computer Science and Engineering student specializing in Information Security at VIT, Vellore.
+As part of the interview process for the Software Engineer position at Hitwicket, I was tasked with completing an assignment that involved building a turn-based chess-like game .
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Turn-based Chess-like Game with Websocket Communication
 Objective
 Develop a turn-based chess-like game with a server-client architecture, utilizing websockets for real-time communication and a web-based user interface.
@@ -9,7 +12,7 @@ Players arrange their characters on their respective starting rows at the beginn
 
 Characters and Movement
 There are three types of characters available:
- 1. Pawn:
+ 1. Pawn (HP):
 Moves one block in any direction (Left, Right, Forward, or Backward).
 Move commands: L (Left), R (Right), F (Forward), B (Backward)
 2. Hero1:
@@ -84,3 +87,30 @@ Assess how the addition of Hero3 affects overall game balance.
 You may need to adjust the number of each character type allowed per team.
 By implementing Hero3, students will gain experience in handling more complex movement patterns and expanding their game logic to accommodate new rules. This challenge encourages students to think about modular design and extensibility in their code.
 
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+TO RUN:
+
+Download and install Git Bash.
+
+Clone the repository using :
+                   command: "git clone https://github.com/Pmbhangales/Prathamesh_Bhangale_21BCI0285.git" in git bash
+Navigate to the project directory.
+Install dependencies 
+                  command: "npm install"
+Start the application 
+                  Command: "npm run start"
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The application will start running, and you can access it by opening a web browser and navigating to the appropriate URL  http://localhost:3000
+
+open the URL in two browser to play Player A And Player B simultaneously.
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Piece Movement Guide
+Blue color is Player A
+Yellow color is Player B
+Pawn (HP): Moves 1 step in any direction ( ↑ , ↓ , ← , → , ↖ , ↗ , ↙ , ↘ )
+Hero1 (H1): Moves up to 2 steps in any direction ( ↑ , ↓ , ← , → )
+Hero2 (H2): Moves up to 2 steps diagonally ( ↖ , ↗ , ↙ , ↘ )
+Hero3 (H3): Moves up to 3 steps in any direction ( (Horse move) 2 step Frist move & 1 Step second move)
