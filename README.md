@@ -14,13 +14,16 @@ Players arrange their characters on their respective starting rows at the beginn
 
 Characters and Movement
 There are three types of characters available:
+
 ** 1. Pawn (HP):**
 Moves one block in any direction (Left, Right, Forward, or Backward).
 Move commands: L (Left), R (Right), F (Forward), B (Backward)
+
 **2. Hero1:**
 Moves two blocks straight in any direction.
 Kills any opponent's character in its path.
 Move commands: L (Left), R (Right), F (Forward), B (Backward)
+
 **3. Hero2:**
 Moves two blocks diagonally in any direction.
 Kills any opponent's character in its path.
